@@ -59,16 +59,13 @@
             "description": "Bot Start up Picture . Get it from telegraph boy",
             "required": true
         }
+
     },
     "buildpacks": [
         {
             "url": "heroku/python"
         }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-    }
+    ]
+
 }
+
