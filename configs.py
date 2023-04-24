@@ -4,8 +4,8 @@ import os
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "12124605"))
 	API_HASH = os.environ.get("API_HASH", "5cf3577d85fd02286535ec2296934287")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5961865328:AAFMij1zlHuLWINTg-gIR5jsXPxq-fKtRSI")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "yourfilestorebot")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6123854790:AAHde51RgdsznVm_oaY3lybNh-fiOYOVhr0")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "OkFileSaveBot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001868884724"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1883570185"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://SearchBot:SearchBot@cluster0.umbvify.mongodb.net/?retryWrites=true&w=majority")
